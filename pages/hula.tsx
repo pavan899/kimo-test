@@ -1,43 +1,43 @@
 import Layout from './layout';
 const data = {
-    "name": "Surfing",
-    "description": "Hawaii is known for its world-famous surf spots and waves that attract surfers from all over the globe. Here are some of the best islands for surfing in Hawaii:",
-    "image": "https://storage.googleapis.com/topics-images/web-dev-images/surfing.jpg",
+    "name": "Traditional Festivals",
+    "description": "Hawaii is known for its rich cultural heritage and vibrant festivals that showcase the unique traditions of the Hawaiian Islands. Here are some of the best places to attend traditional festivals in Hawaii:",
+    "image": "https://storage.googleapis.com/topics-images/web-dev-images/traditional_festivals.jpg",
     "activities": [
         {
-            "name": "North Shore, Oahu"
+            "name": "Merrie Monarch Festival in Hilo, Big Island"
         },
         {
-            "name": "Waimea Bay, Oahu"
+            "name": "King Kamehameha Day Celebration in Honolulu, Oahu"
         },
         {
-            "name": "Sunset Beach, Oahu"
+            "name": "Aloha Festivals Floral Parade in Honolulu, Oahu"
         },
         {
-            "name": "Pipeline, Oahu"
+            "name": "Kauai Mokihana Festival in Lihue, Kauai"
         },
         {
-            "name": "Maui"
+            "name": "Maui Nui Cultural Festival in Kahului, Maui"
         },
         {
-            "name": "Honolii Beach Park, Big Island"
+            "name": "Hawaii Island Festival of Birds in Hilo, Big Island"
         },
         {
-            "name": "Pe'ahi (Jaws), Big Island"
+            "name": "Eo E Emalani I Alaka'i Festival in Kilauea, Kauai"
         },
         {
-            "name": "Hanalei Bay, Kauai"
+            "name": "Prince Lot Hula Festival in Moanalua Gardens, Oahu"
         },
         {
-            "name": "Polihale State Park, Kauai"
+            "name": "Pua Ali'i 'Ilima Festival in Honolulu, Oahu"
         },
         {
-            "name": "Kaunakakai Town, Molokai"
+            "name": "Makahiki Festival at the Polynesian Cultural Center on Oahu"
         }
     ]
 };
 
-export default function surfing() {
+export default function hula() {
     return <Layout>
         <div className="w-full">
             <div className="w-full h-[70vh] overflow-hidden relative">
@@ -56,7 +56,7 @@ export default function surfing() {
                     <div>
                         {
                             data.activities.map((item, index) => {
-                                return <div className="w-[80%] p-4 m-[5px] rounded-lg text-black shadow-[2px_2px_7px_0_#80808073]">{item.name}</div>
+                                return <div className="w-[80%] p-4 m-[5px] bg-[#008080ba] rounded-lg text-white">{item.name}</div>
                             })
                         }
                     </div>

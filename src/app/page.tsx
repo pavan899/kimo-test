@@ -6,6 +6,7 @@ import MainLayout from './Pages/MainLayout';
 import { getData } from './Utils/getData';
 
 export default function Home() {
+  getData('categories');
   return (
     <>
       {/* <div style={{ position: 'absolute', left: '0', top: '0', zIndex: '10'}}>

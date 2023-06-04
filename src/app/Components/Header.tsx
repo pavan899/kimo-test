@@ -36,7 +36,7 @@ export default function Header() {
     }
     return <>
     {/* Desktop Header */}
-        <header className="flex w-9/12 h-[70px] rounded-lg bg-white m-5 p-5 gap-10 z-50 fixed shadow-[1px_1px_4px_0_#8080803d] max-[600px]:hidden">
+        <header className="flex w-9/12 h-[70px] rounded-lg bg-white m-5 p-5 gap-10 z-50 fixed left-[50%] translate-x-[-50%] shadow-[1px_1px_4px_0_#8080803d] max-[600px]:hidden">
             <div className="flex w-[10%] justify-center items-center">
                 <img src="/Images/Aloha.png" className="w-[70%] user-drag-none" alt="" />
             </div>
@@ -48,7 +48,7 @@ export default function Header() {
                 }
             </div>
             <div className="flex w-[15%] justify-end items-center">
-                <button className={`bg-[#008080] rounded-md p-3 px-4 hover:bg-cyan-600 text-white text-xs font-bold`}>
+                <button className={`bg-[#008080] rounded-md p-3 px-4 hover:bg-cyan-600 text-white text-xs font-bold whitespace-nowrap`}>
                     Book a trip
                 </button>
             </div>

@@ -1,38 +1,23 @@
 import Layout from './layout';
 const data = {
-    "name": "Surfing",
-    "description": "Hawaii is known for its world-famous surf spots and waves that attract surfers from all over the globe. Here are some of the best islands for surfing in Hawaii:",
-    "image": "https://storage.googleapis.com/topics-images/web-dev-images/surfing.jpg",
+    "name": "Volcanoes",
+    "description": "Hawaii is home to several active volcanoes, making it a popular destination for those interested in geology and natural wonders. Here are some of the most popular volcanoes to attend in Hawaii:",
+    "image": "https://storage.googleapis.com/topics-images/web-dev-images/volcanoes.jpg",
     "activities": [
         {
-            "name": "North Shore, Oahu"
+            "name": "Kilauea Volcano, Big Island"
         },
         {
-            "name": "Waimea Bay, Oahu"
+            "name": "Mauna Loa, Big Island"
         },
         {
-            "name": "Sunset Beach, Oahu"
+            "name": "Mount Kilimanjaro, Big Island"
         },
         {
-            "name": "Pipeline, Oahu"
+            "name": "Haleakala, Maui"
         },
         {
-            "name": "Maui"
-        },
-        {
-            "name": "Honolii Beach Park, Big Island"
-        },
-        {
-            "name": "Pe'ahi (Jaws), Big Island"
-        },
-        {
-            "name": "Hanalei Bay, Kauai"
-        },
-        {
-            "name": "Polihale State Park, Kauai"
-        },
-        {
-            "name": "Kaunakakai Town, Molokai"
+            "name": "Mauna Kea, Big Island"
         }
     ]
 };

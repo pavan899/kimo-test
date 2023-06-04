@@ -19,14 +19,14 @@ export default function Section2() {
         },
     ]
     return <div className="min-h-[66vh] w-full bg-[#ffffff] flex justify-center">
-        <div className="w-9/12">
+        <div className="w-9/12 max-[599px]:w-11/12">
             <div className="py-7 font-bold">
                 Highlights
             </div>
-            <div className="h-[45vh] w-full inline-grid grid-cols-3 gap-4 max-[599px]:flex-1">
+            <div className="h-[45vh] w-full inline-grid grid-cols-3 gap-4 max-[599px]:flex-1 overflow-auto cardContainer p-[5px]">
                 {
                     cardData.map((card, index) => {
-                        return <div key={index} className="w-full h-full shadow-[0_0_16px_0_#00808029] overflow-hidden rounded-lg relative">
+                        return <div key={index} className="w-full h-full shadow-[0_0_16px_0_#00808029] overflow-hidden rounded-lg relative max-[599px]:w-10/12">
                             <div className="h-[50%] overflow-hidden">
                                 <img src={card.image} alt={card.title + "_img"} className="w-full" />
                             </div>
