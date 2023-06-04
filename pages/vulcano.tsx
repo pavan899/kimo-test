@@ -26,7 +26,7 @@ export default function surfing() {
     return <Layout>
         <div className="w-full">
             <div className="w-full h-[70vh] overflow-hidden relative">
-                <img src={data.image} alt="" className="w-full h-auto relative top-[-30%]" />
+                <img src={data.image} alt="" className="w-full h-auto relative top-[-160%]" />
                 <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] text-center flex flex-col gap-[15px]">
                     <div className="text-white text-5xl font-bold">
                         {data.name}
