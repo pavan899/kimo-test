@@ -140,8 +140,8 @@ export default function Accordion() {
                   onClick={() => handleToggle(index)}
                   className={
                       active === index
-                          ? "text-DarkGrayishBlue text-xs leading-relaxed w-[15rem] md:w-[20rem] p-0 m-0 cursor-pointer"
-                          : "invisible max-h-0"
+                          ? "text-DarkGrayishBlue text-xs leading-relaxed w-[15rem] md:w-[20rem] p-0 m-0 cursor-pointer block"
+                          : "invisible max-h-0 hidden"
                   }>
                   <ul className="list-disc p-4">
                       {

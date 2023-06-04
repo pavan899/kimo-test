@@ -23,7 +23,7 @@ export default function Section2() {
             <div className="py-7 font-bold">
                 Highlights
             </div>
-            <div className="h-[45vh] w-full inline-grid grid-cols-3 gap-4">
+            <div className="h-[45vh] w-full inline-grid grid-cols-3 gap-4 max-[599px]:flex-1">
                 {
                     cardData.map((card, index) => {
                         return <div key={index} className="w-full h-full shadow-[0_0_16px_0_#00808029] overflow-hidden rounded-lg relative">

@@ -1,5 +1,5 @@
 export default function ProfileCard() {
-    return <div className="w-full h-[30%] bg-white rounded-lg flex gap-4 items-center">
+    return <div className="w-full h-[20vh] bg-white rounded-lg flex gap-4 items-center">
         <div className="w-[75%] h-full p-4 flex flex-col justify-between">
             <div className="w-[100%]">
                 <div className="text-lg font-bold">Hadwin Malone</div>
